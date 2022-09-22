@@ -43,7 +43,15 @@ public class App
         System.out.println("Chavvi's Calculator");
         printMenuLine();
 
+        printMenuCommand('a', "Enter a value for A");
+        printMenuCommand('b', "Enter a value for B");
+        printMenuCommand('+', "Add");
+        printMenuCommand('-', "Subtract");
+        printMenuCommand('*', "Multiply");
+        printMenuCommand('/', "Divide");
         printMenuCommand('q', "Quit");
+        printMenuCommand('c', "Clear");
+
 
         printMenuLine();
     }
