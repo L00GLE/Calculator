@@ -80,6 +80,12 @@ public class App
                 System.out.println(num1 + " / " + num2 + " = " + result);
                 break;
     
+                case 'c':
+                num1 = 0;
+                num2 = 0;
+                System.out.println("Your values have been reset");
+                break;
+    
                 default:
                 System.out.println("ERROR Unknown Function!");
                 break;
