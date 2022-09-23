@@ -53,6 +53,12 @@ public class App
                 num1 = scan.nextDouble();
                 System.out.println("A = " + num1);
                 break;
+
+                case 'b':
+                System.out.println("Please enter a value for B: ");
+                num2 = scan.nextDouble();
+                System.out.println("B = " + num2);
+                break;
     
                 default:
                 System.out.println("ERROR Unknown Function!");
