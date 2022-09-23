@@ -27,7 +27,7 @@ public class App
 
             // Menu
             System.out.println("");
-            System.out.println("Chavvi's Calcuator");
+            System.out.println("Chavvi's Calculator");
             System.out.println("..............................");
             System.out.println("a   Enter values for A");
             System.out.println("b   Enter values for B");
