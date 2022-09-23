@@ -48,6 +48,12 @@ public class App
             // Calculator Functions
             switch (function) {
     
+                case 'a':
+                System.out.println("Please enter a value for A: ");
+                num1 = scan.nextDouble();
+                System.out.println("A = " + num1);
+                break;
+    
                 default:
                 System.out.println("ERROR Unknown Function!");
                 break;
