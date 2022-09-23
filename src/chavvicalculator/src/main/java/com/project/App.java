@@ -44,7 +44,18 @@ public class App
     
     
             function = scan.next().charAt(0);
+
+            // Calculator Functions
+            switch (function) {
+    
+                default:
+                System.out.println("ERROR Unknown Function!");
+                break;
+    
+                case 'q':
+                System.out.print("Thank you for using Chavvi's Calculator!");
+                return;
+            }
         }
-    }
     }
 }
