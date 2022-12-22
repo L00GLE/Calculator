@@ -2,12 +2,7 @@ package com.project;
 
 import java.util.*;
 
-/**
- * Calculator for Chavvi
- *
- */
-
-public class App 
+public class CalculatorApp 
 {
     public static void main( String[] args ) {
 
@@ -27,7 +22,7 @@ public class App
 
             // Menu
             System.out.println("");
-            System.out.println("Chavvi's Calculator");
+            System.out.println("My Calculator");
             System.out.println("..............................");
             System.out.println("a   Enter values for A");
             System.out.println("b   Enter values for B");
@@ -91,7 +86,7 @@ public class App
                 break;
     
                 case 'q':
-                System.out.print("Thank you for using Chavvi's Calculator!");
+                System.out.print("Thank you for using my Calculator!");
                 return;
             }
         }
